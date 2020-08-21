@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
     @GetMapping("")
     public ResponseEntity<?> getTest(){
-        String result = "springjenkins";
+        String result = "springjenkinstest";
         return ResponseEntity.ok(result);
     }
 }
