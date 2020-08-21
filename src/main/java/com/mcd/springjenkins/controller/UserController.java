@@ -1,7 +1,7 @@
 package com.mcd.springjenkins.controller;
 
-import com.mcd.springmongo.entity.User;
-import com.mcd.springmongo.repository.UserRepository;
+import com.mcd.springjenkins.entity.User;
+import com.mcd.springjenkins.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
