@@ -2,7 +2,7 @@ FROM openjdk:8
 ARG JAR_FILE
 RUN apt-get update
 RUN apt-get install vim -y
-RUN mkdir /springjenkins
-ADD ${JAR_FILE} /springjenkins
+RUN mkdir /testproject
+ADD ${JAR_FILE} /testproject
 EXPOSE 9081
-ENTRYPOINT ["java","-jar","/springjenkins/springjenkins-0.0.1-SNAPSHOT.jar"]
+ENTRYPOINT ["java","-jar","/testproject/testproject-0.0.1-SNAPSHOT.jar"]

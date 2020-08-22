@@ -68,10 +68,10 @@
                 <artifactId>dockerfile-maven-plugin</artifactId>
                 <version>1.4.13</version>
                 <configuration>
-                    <repository>springjenkins</repository>
+                    <repository>testproject</repository>
                     <tag>20190628-1.0</tag>
                     <buildArgs>
-                        <JAR_FILE>/target/springjenkins-0.0.1-SNAPSHOT.jar</JAR_FILE>
+                        <JAR_FILE>/target/testproject-0.0.1-SNAPSHOT.jar</JAR_FILE>
                     </buildArgs>
                 </configuration>
             </plugin>

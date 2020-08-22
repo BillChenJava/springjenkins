@@ -19,7 +19,7 @@ public class UserController {
 
     @GetMapping("")
     public List<User> getAllUsers(){
-        System.out.println("get all users");
+        System.out.println("get all userstest");
         return userRepository.findAll();
     }
 
